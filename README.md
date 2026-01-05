@@ -1,4 +1,4 @@
-# 🎥 Sistema de Visión por Computadora en Tiempo Real
+# 👾 Sistema de Visión Artificial en Tiempo Real
 
 Sistema de visión artificial desarrollado en **Python (Flask + OpenCV)** y **React**, capaz de detectar rostros en tiempo real usando la webcam y mostrar el resultado en una interfaz web.
 
@@ -33,21 +33,25 @@ Sistema de visión artificial desarrollado en **Python (Flask + OpenCV)** y **Re
 
 ## 📁 Estructura del proyecto
 
+```text
 VISION_SYSTEM/
-│── backend/
-│ └── face_detection_server.py
 │
-│── frontend/
-│ ├── public/
-│ ├── src/
-│ │ └── components/
-│ │ └── FaceDetection.jsx
-│ ├── package.json
-│ └── README.md
+├── backend/
+│   ├── face_detection_server.py
+│   └── requirements.txt
 │
-│── .gitignore
-│── README.md
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   └── components/
+│   │       └── FaceDetection.jsx
+│   ├── package.json
+│   └── package-lock.json
+│
+├── .gitignore
+└── README.md
 
+```
 ---
 
 ## ⚙️ Instalación y ejecución
@@ -57,16 +61,17 @@ VISION_SYSTEM/
 Desde la carpeta raíz del proyecto:
 
 ```bash
-cd backend
-python face_detection_server.py
+En una terminal:
+  cd backend
+  python face_detection_server.py
 
 El servidor se ejecutara en: 
-http://localhost:5000/video_feed
+  http://localhost:5000/video_feed
 
 En otra terminal:
-cd frontend
-npm install
-npm start
+  cd frontend
+  npm install
+  npm start
 
 La aplicación estará disponible en:
 http://localhost:3000
@@ -81,12 +86,12 @@ Se dibujan efectos (emoji) sobre cada rostro
 
 El video procesado se envía al frontend
 
-React muestra el stream en el navegador
+React muestra el stream en el navegador.
 
 
 ## 📌 Notas importantes
 
-Asegúrate de que la webcam no esté siendo usada por otra aplicación
+Asegúrate de que la webcam no esté siendo usada por otra aplicación.
 
 Si no se detecta la cámara, prueba cambiar el índice:
 
