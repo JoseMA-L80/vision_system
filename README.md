@@ -97,6 +97,5 @@ Si no se detecta la cámara, prueba cambiar el índice:
 
 cv2.VideoCapture(0)
 
-## Ejemplo:
-<img width="798" height="573" alt="exam1" src="https://github.com/user-attachments/assets/30676bcd-0da9-4b37-a714-d91c5d3608c9" />
+
 
